@@ -1,10 +1,502 @@
-@media (min-width: 1400px) 
- {
-     .container{
-         max-width: 1220px !important;
-     }
-     .r_container{
-                max-width: 1100px !important;
+@media (min-width: 0px) {
+    .hero-row {
+        justify-content: center;
+    }
 
-     }
+    #hero .info {
+        margin-top: -19%;
+    }
+
+    #hero .hero-img {
+            margin-top: 100px;
+            width: 100%;
+            align-items: center;
+            right: 43px;
+    }
+
+   .r_img_hero_bg {
+       position: inherit;
+       top: -100 px;
+       right: 0px;
+       margin-right: 0px;
+   }
+
+  .merchants {
+      margin-top: 5%;
+  }
+.services {
+    background: #FFF;
+    margin-top: -40%;
 }
+
+/* //---------- driver section---------------- */
+
+.r_driver_carousel{
+    flex-flow: column-reverse;
+}
+.driver {
+    padding-top: 20px;
+    padding-bottom: 100px;
+   
+}
+.driver .medal {
+    margin-top: -4%;
+}
+  .driver h2 {
+      padding-bottom: 1%;
+  }
+  .driver p {
+      margin-top: 2%;
+      padding-top: 1%;
+  }
+
+  .driver h6 {
+      /* margin-top: -30%; */
+      padding-bottom: 1%;
+  }
+
+  .driver .medal {
+      margin-top: -7%;
+      margin-left: -7%;
+  }
+
+  
+.r_driver_review div {
+    display: inline !important;
+    width: max-content !important;
+}
+  .driver .box-experience {
+      width: max-content;
+  }
+
+  .driver .box-language {
+      width: max-content;
+
+     
+  }
+
+  
+
+  .driver .box-driver img {
+      margin-bottom: -10px;
+  }
+/* ----------------------------------- */
+.customer .box-customer{
+    margin-left: 0%;
+    margin-top: 20%;
+}
+/* ------------------------------------------ */
+.box-heading-img img {
+    width: 65%;
+
+}
+/* -------------------------------------------- */
+.anouncement img{
+width: 45%;
+}
+.anouncement h2{
+margin-top: -8%;
+padding-left: 13%;
+padding-bottom: 5%;
+font-size: 15px;
+}
+/* ------------------------------- */
+.why-us .box .why-us-image img{
+margin-left: 0;
+width: 700px;
+height: auto;
+}
+.r_custom_indicaton2 li {
+    display: none;
+}
+.r_carousel-item .row div{
+    margin-bottom: 10%;
+}
+.why-us h3 {
+    padding-top: 10%;
+    padding-left: 5%;
+}
+/* ------------------------------------------ */
+.form-page-center{
+    padding: 0 40px;
+}
+}
+@media (min-width: 505.98px) {
+  
+ #hero .info {
+     margin-top: 0%;
+ }
+ 
+  .r_img_hero_bg {
+      position: inherit;
+      top: 0;
+      right: 0;
+  }
+    
+
+     #hero .hero-img {
+         margin-top: 35px;
+     }
+
+     .driver .medal {
+         margin-top: -4%;
+     }
+     /* ----------------------------------- */
+     .customer .box-customer {
+         margin-left: 6%;
+     }
+    
+}
+@media (min-width: 576px) {
+
+    #hero .info {
+        margin-top: 15%;
+    }
+    #hero .hero-img {
+        margin-top: -100px;
+    }
+.services {
+    margin-top: -25%;
+}
+.driver .medal {
+    margin-top: -4%;
+}
+/* ----------------------------------- */
+.customer .box-customer {
+    margin-left: 15%;
+}
+/* -------------------------------------------- */
+.anouncement img {
+    width: 45%;
+}
+
+.anouncement h2 {
+    padding-left: 17%;
+}
+/* ------------------------------- */
+.why-us .box .why-us-image img {
+    margin-left: 0%;
+    width: 500px;
+    height: auto;
+}
+
+.r_custom_indicaton2 li {
+    display: block;
+}
+
+.r_carousel-item .row div {
+    margin-bottom: 10%;
+}
+
+.why-us h3 {
+    padding-top: 20%;
+    padding-left: 5%;
+}
+.why-us p{
+    margin-right: 0;
+}
+}
+@media (min-width: 767.98px) {
+  
+
+   #hero .info {
+       margin-top: 30%;
+       text-align: center;
+   }
+
+   #hero .hero-img {
+       margin-top: 0;
+
+   }
+
+   .r_img_hero_bg {
+       position: inherit;
+       top: 0;
+       right: 0;
+   }
+
+.services {
+    margin-top: -30%;
+}
+
+/* //---------------------------------- */
+ .r_driver_carousel {
+     flex-flow: row;
+ }
+.r_driver_review div {
+    display: flex !important;
+    width: 100%;
+}
+
+.driver .medal{
+    margin-top: -3%;
+}
+
+
+
+ .driver {
+     padding-top: 20px;
+     padding-bottom: 100px;
+
+ }
+
+ .driver h2 {
+     padding-bottom: 1%;
+ }
+
+ .driver p {
+     margin-right: 5%;
+     margin-top: 2%;
+     padding-top: 1%;
+ }
+
+ .driver h6 {
+     /* margin-top: -30%; */
+     padding-bottom: 1%;
+     color: #535353;
+     opacity: 1;
+ }
+
+
+
+ .r_driver_review div {
+     display: inline !important;
+     width: max-content;
+ }
+
+ .driver .box-experience {
+     margin-top: 1%;
+ }
+
+
+
+ .driver .box-driver img {
+     margin-bottom: -10px;
+ }
+ /* -------------------------------- */
+.customer .box-customer {
+    margin-left: 25%;
+    margin-top: 0%;
+}
+/* -------------------------------------------- */
+.anouncement img {
+    width: 35%;
+}
+
+.anouncement h2 {
+margin-top: -6%;
+padding-left: 12%;
+font-size: 17px;
+}
+/* ------------------------------- */
+.why-us .box .why-us-image img {
+    margin-left: 10%;
+    width: auto;
+    height: 400px;
+}
+.why-us h3 {
+    margin-left: 10%;
+}
+
+.why-us p {
+    margin-right: 10%;
+}
+
+/* ------------------------------------------ */
+.form-page-center {
+    padding: 0 ;
+}
+
+}
+
+@media (min-width: 991.98px) {
+    #hero{
+        height: 200vh;
+    }
+    #hero .info {
+        margin-top: 50%;
+        align-items: center;
+    }
+    
+  .r_img_hero_bg {
+       position: inherit;
+       max-width: 70%;
+       top: -50px;
+       right: -120px;
+       height: auto;
+       width: 169%;
+  }
+  /* -------------------------------------- */
+ .box-heading {
+     display: flex;
+     flex-direction: column;
+     justify-content: start;
+     align-items: center;
+ }
+ .services {
+     margin-top: 10%;
+ }
+ /* -------------------------------- */
+ .customer .box-customer {
+     margin-left: 35%;
+     margin-top: 0%;
+ }
+ /* ------------------------------------------ */
+ .box-heading-img img {
+     width: 85%;
+
+ }
+ /* -------------------------------------------- */
+ .anouncement img {
+     width: 35%;
+ }
+
+ .anouncement h2 {
+     margin-top: -6%;
+     padding-left: 13%;
+     font-size: 20px;
+ }
+ /* ---------------------------------- */
+ .why-us h3 {
+     padding-top: 13%;
+     margin-left: 20%;
+ }
+
+ .why-us p {
+     margin-right: 20%;
+     margin-right: 0;
+ }
+}
+
+@media (min-width: 1199.98px) {
+     #hero {
+         height: 170vh;
+     }
+     .hero-row {
+         justify-content:inherit;
+     }
+    #hero .info {
+        margin-top: 32%;
+        align-items: flex-start;
+    }
+     #hero .hero-img {
+         width: 50%;
+         margin-top: 0px;
+     }
+      .r_img_hero_bg {
+          position: relative;
+          max-width: 208%;
+          top: 50px;
+          right:200px;
+          height: auto;
+          width: 209%;
+      }
+      #hero h2 {
+          font-size: 39px;
+      }
+      .services {
+          margin-top: -3%;
+      }
+  .driver .box-driver img {
+      margin-bottom: -40px;
+  }
+  /* -------------------------------------------- */
+
+
+  .anouncement h2 {
+      font-size: 23px;
+  }
+}
+@media (min-width: 1299.98px) {
+    #hero {
+        height: 170vh;
+    }
+    .hero-row {
+        justify-content: inherit;
+    }
+
+    #hero .info {
+        margin-top: 45%;
+        align-items: flex-start;
+    }
+
+    #hero .hero-img {
+        width: 50%;
+        margin-top: 0px;
+    }
+
+    .r_img_hero_bg {
+        position: relative;
+        max-width: 208%;
+        top: 150px;
+        right: 200px;
+        height: auto;
+        width: 209%;
+    }
+
+    #hero h2 {
+        font-size: 39px;
+    }
+/* ------------------------------------- */
+
+}
+
+@media (min-width: 1399.98px) {
+
+    .container{
+        max-width: 1150px;
+    }
+      #hero {
+          height: 190vh;
+      }
+   .hero-row {
+       justify-content: inherit;
+   }
+
+   #hero .info {
+       margin-top: 50%;
+       align-items: flex-start;
+   }
+
+   #hero .hero-img {
+       width: 50%;
+       margin-top: 0px;
+   }
+
+   .r_img_hero_bg {
+       position: relative;
+       max-width: 208%;
+       top: 130px;
+       right: 140px;
+       height: auto;
+       width: 209%;
+   }
+#hero h1{
+    line-height: 35px;
+    font-size: 39px;
+}
+   #hero h2 {
+       font-size: 39px;
+       margin: 0;
+   }
+   /* ------------------------------ */
+.services{
+    margin-top: 5%;
+}
+}
+
+
+
+@media (min-width: 1599.98px) {
+
+   #hero {
+       height: 190vh;
+   }
+
+}
+
+
+
+
+
+
