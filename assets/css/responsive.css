@@ -26,7 +26,7 @@
   }
 .services {
     background: #FFF;
-    margin-top: -40%;
+    margin-top: 20%;
 }
 
 /* //---------- driver section---------------- */
@@ -156,14 +156,14 @@ height: auto;
         margin-top: -100px;
     }
 .services {
-    margin-top: -25%;
+    margin-top: 0%;
 }
 .driver .medal {
     margin-top: -4%;
 }
 /* ----------------------------------- */
 .customer .box-customer {
-    margin-left: 15%;
+    margin-left: 13%;
 }
 /* -------------------------------------------- */
 .anouncement img {
@@ -215,9 +215,9 @@ height: auto;
        right: 0;
    }
 
-.services {
+/* .services {
     margin-top: -30%;
-}
+} */
 
 /* //---------------------------------- */
  .r_driver_carousel {
@@ -311,10 +311,10 @@ font-size: 17px;
 
 @media (min-width: 991.98px) {
     #hero{
-        height: 200vh;
+        min-height: 200%;
     }
     #hero .info {
-        margin-top: 50%;
+        margin-top: 35%;
         align-items: center;
     }
     
@@ -331,6 +331,9 @@ font-size: 17px;
      display: flex;
      flex-direction: column;
      justify-content: start;
+     align-items: flex-start;
+ }
+ .box-heading.center {
      align-items: center;
  }
  .services {
@@ -370,7 +373,7 @@ font-size: 17px;
 
 @media (min-width: 1199.98px) {
      #hero {
-         height: 170vh;
+         min-height: 170%;
      }
      .hero-row {
          justify-content:inherit;
@@ -395,7 +398,7 @@ font-size: 17px;
           font-size: 39px;
       }
       .services {
-          margin-top: -3%;
+          margin-top: 5%;
       }
   .driver .box-driver img {
       margin-bottom: -40px;
@@ -409,7 +412,7 @@ font-size: 17px;
 }
 @media (min-width: 1299.98px) {
     #hero {
-        height: 170vh;
+        min-height: 170%;
     }
     .hero-row {
         justify-content: inherit;
@@ -444,10 +447,10 @@ font-size: 17px;
 @media (min-width: 1399.98px) {
 
     .container{
-        max-width: 1150px;
+        max-width: 1200px;
     }
       #hero {
-          height: 190vh;
+          min-height: 190%;
       }
    .hero-row {
        justify-content: inherit;
@@ -466,7 +469,7 @@ font-size: 17px;
    .r_img_hero_bg {
        position: relative;
        max-width: 208%;
-       top: 130px;
+       /* top: -570px; */
        right: 140px;
        height: auto;
        width: 209%;
@@ -479,9 +482,12 @@ font-size: 17px;
        font-size: 39px;
        margin: 0;
    }
+   .merchants {
+       margin-top: 15%;
+   }
    /* ------------------------------ */
 .services{
-    margin-top: 5%;
+    margin-top: 10%;
 }
 }
 
@@ -490,7 +496,7 @@ font-size: 17px;
 @media (min-width: 1599.98px) {
 
    #hero {
-       height: 190vh;
+       min-height: 190%;
    }
 
 }
