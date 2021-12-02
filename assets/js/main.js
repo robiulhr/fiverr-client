@@ -168,8 +168,9 @@ let headerTitle = (merchantsTxdec, merchantsSpanCol, DriverTxDec, DriverSpanCol)
 document.addEventListener('click', (e) => {
   if (e.target == ourMerchants || e.target == ourMerchantsSpan) {
     showHide('block', 'none', '.5s all ease-in-out')
+    headerTitle('underline', '#DC6E89', 'none', '#000')
+
   }
-  headerTitle('underline', '#DC6E89', 'none', '#000')
 })
 // ---------
 document.addEventListener('click', (e) => {
