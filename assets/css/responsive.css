@@ -1,4 +1,7 @@
 @media (min-width: 0px) {
+    .fixed-top {
+        top: 5px;
+    }
     .hero-row {
         justify-content: center;
     }
@@ -80,11 +83,7 @@
   .driver .box-driver img {
       margin-bottom: -10px;
   }
-/* ----------------------------------- */
-.customer .box-customer{
-    margin-left: 0%;
-    margin-top: 20%;
-}
+
 /* ------------------------------------------ */
 .box-heading-img img {
     width: 65%;
@@ -117,6 +116,18 @@ height: auto;
     padding-left: 5%;
 }
 /* ------------------------------------------ */
+/* ----------------------------------- */
+.customer .box-customer {
+    margin-left: 10%;
+    margin-top: 20%;
+    width: 200px;
+
+}
+.customer img{
+    margin-top: 32%;
+    width: 65%;
+}
+/* ------------------------------------------ */
 .form-page-center{
     padding: 0 40px;
 }
@@ -143,10 +154,12 @@ height: auto;
      }
      /* ----------------------------------- */
      .customer .box-customer {
-         margin-left: 6%;
+         margin-left: 20%;
+         width: 220px;
      }
     
 }
+
 @media (min-width: 576px) {
 
     #hero .info {
@@ -195,9 +208,20 @@ height: auto;
 .why-us p{
     margin-right: 0;
 }
+/* ------------------------------------------ */
+.customer .box-customer {
+    width: 308px;
+}
+
+.customer img {
+    margin-top: 32%;
+    width: 65%;
+}
 }
 @media (min-width: 767.98px) {
-  
+    .fixed-top {
+        top: 15px;
+    }
 
    #hero .info {
        margin-top: 30%;
@@ -310,6 +334,9 @@ font-size: 17px;
 }
 
 @media (min-width: 991.98px) {
+      .fixed-top {
+          top: 15px;
+      }
     #hero{
         min-height: 200%;
     }
@@ -372,6 +399,9 @@ font-size: 17px;
 }
 
 @media (min-width: 1199.98px) {
+     .fixed-top {
+         top: 20px;
+     }
      #hero {
          min-height: 170%;
      }
@@ -445,7 +475,9 @@ font-size: 17px;
 }
 
 @media (min-width: 1399.98px) {
-
+ .fixed-top {
+     top: 20px;
+ }
     .container{
         max-width: 1200px;
     }
@@ -493,6 +525,9 @@ font-size: 17px;
 }
 
 @media (min-width: 1499.98px) {
+     .fixed-top {
+         top: 25px;
+     }
     .container {
         max-width: 1380px;
     }
@@ -507,6 +542,9 @@ font-size: 17px;
 }
 
 @media (min-width: 1599.98px) {
+     .fixed-top {
+         top: 30px;
+     }
 .container {
     max-width: 1450px;
 }
@@ -525,6 +563,9 @@ font-size: 17px;
 }
 
 @media (min-width: 1799.98px) {
+     .fixed-top {
+         top: 35px;
+     }
     .container {
         max-width: 1550px;
     }
